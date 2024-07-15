@@ -291,7 +291,7 @@ services:
     build:
       context: local-api
       args:
-        CENTRAL_REGISTRY: https://onenet-ngsi-ld.eurodyn.com/api
+        CENTRAL_REGISTRY: http://cc-cpes-248.inesctec.pt:15502/api
       dockerfile: Dockerfile
     image: local-api
     container_name: local-api
